@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brown_color</item>
+        <item name="colorPrimaryDark">@color/brown_color</item>
+        <item name="colorAccent">@color/brown_color</item>
+        <item name="colorButtonNormal">@color/brown_color</item>
+
+    </style>
+
+
+        <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+            <item name="tabIndicatorColor">@android:color/white</item>
+            <item name="tabBackground">@color/orange</item>
+            <item name="tabSelectedTextColor">@android:color/white</item>
+            <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+
+        </style>
+
+
+        <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+            <item name="android:textSize">14sp</item>
+            <item name="android:textColor">@color/default_tabcolor</item>
+            <item name="textAllCaps">true</item>
+        </style>
+
+
+
+</resources>
